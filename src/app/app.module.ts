@@ -3,6 +3,7 @@ import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import {GradePage} from "../pages/grade/grade";
+import {RegisterPage} from "../pages/register/register";
 import {MenuPage} from "../pages/menu/menu";
 
 
@@ -11,6 +12,7 @@ import {MenuPage} from "../pages/menu/menu";
     MyApp,
     HomePage,
     GradePage,
+    RegisterPage,
     MenuPage
     // MenuPage
   ],
@@ -22,6 +24,7 @@ import {MenuPage} from "../pages/menu/menu";
     MyApp,
     HomePage,
     GradePage,
+    RegisterPage,
     MenuPage
   ],
   providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}]
