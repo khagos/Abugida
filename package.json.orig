@@ -29,13 +29,22 @@
     "typescript": "2.0.6"
   },
   "cordovaPlugins": [
+<<<<<<< HEAD
     "cordova-plugin-console",
     "cordova-plugin-whitelist",
+=======
+    "cordova-plugin-whitelist",
+    "cordova-plugin-console",
+>>>>>>> 9057b5f010cf286d0f82b00b21c0722cf97e83c9
     "cordova-plugin-device",
     "cordova-plugin-statusbar",
     "cordova-plugin-splashscreen",
     "ionic-plugin-keyboard"
   ],
   "cordovaPlatforms": [],
+<<<<<<< HEAD
+  "description": "Abugida: An Ionic project"
+=======
   "description": "abugida: An Ionic project"
+>>>>>>> 9057b5f010cf286d0f82b00b21c0722cf97e83c9
 }

@@ -1,0 +1,30 @@
+import { Component } from '@angular/core';
+import { Platform } from 'ionic-angular';
+import { StatusBar, Splashscreen } from 'ionic-native';
+
+<<<<<<< HEAD
+import { TabsPage } from '../pages/tabs/tabs';
+=======
+import { HomePage } from '../pages/home/home';
+>>>>>>> 9057b5f010cf286d0f82b00b21c0722cf97e83c9
+
+
+@Component({
+  templateUrl: 'app.html'
+})
+export class MyApp {
+<<<<<<< HEAD
+  rootPage = TabsPage;
+=======
+  rootPage = HomePage;
+>>>>>>> 9057b5f010cf286d0f82b00b21c0722cf97e83c9
+
+  constructor(platform: Platform) {
+    platform.ready().then(() => {
+      // Okay, so the platform is ready and our plugins are available.
+      // Here you can do any higher level native things you might need.
+      StatusBar.styleDefault();
+      Splashscreen.hide();
+    });
+  }
+}
